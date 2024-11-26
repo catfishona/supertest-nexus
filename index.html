@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
     <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    </script>
+        <title>Iceperience</title>
+    
+    <meta name="description" content="ICEperience.id connects Electronic Music Community on the rapidly evolving scene thru hyper-relevant news, events, competitions, and other coolest experience.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="csrf-token" content="CFVROo5wXehzK3bjExN8LSvzerrsC7DcxDgPNCcj" />
+    <meta name="base_url" content="https://iceperience.id">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta property="og:image" content="https://iceperience.id/static/ice.jpg" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="stylesheet" href="https://iceperience.id/static/css/main.css">
 
     <!-- Google Tag Manager -->
     <script>
@@ -69,10 +85,455 @@
         });
       }
     </script>
-    <h1>This is a simple HTML + CSS template!</h1>
+<!--     <h1>This is a simple HTML + CSS template!</h1>
     <button onclick="trackButtonClick('button1')" id="button1">Button 1</button>
     <button id="button2">Button 2</button>
 
-    <div><a href="https://www.google.com/" id="click1">Click Me</a></div>
+    <div><a href="https://www.google.com/" id="click1">Click Me</a></div> -->
+  
+  <div class="animated-bg"></div>
+    <div class="animated-bg bg-2"></div>
+    <header id="site-header" class="site-header ">
+        <div class="container desktop-header">
+    
+        <div class="header-row">
+    
+            <div class="site-logo">
+                <a href="https://iceperience.id">
+                    <img src="https://iceperience.id/static/images/empc-2023/logo-ice.png" alt="Iceperience Logo"
+                        class="site-logo-image" width="258" height="20"
+                        srcset="https://iceperience.id/static/images/empc-2023/logo-ice.png 2x">
+                </a>
+            </div>
+    
+            <nav class="header-nav">
+                <ul class="header-nav__menu">
+                    <li
+                        class="header-nav__item header-nav__dropdown ">
+                        <a class="header-nav__link is-highlight" href="https://iceperience.id/empc">EMPC</a>
+                        <ul class="header-nav__submenu">
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/empc">ABOUT</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/empc/empc-faq">FAQ</a></li>
+                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                    <li class="header-nav__submenu-link">
+                                        <a href="https://iceperience.id/empc/submission">SUBMIT YOUR TRACKS</a>
+                                    </li>
+                                                            
+                                                </ul>
+                    </li>
+                    <li
+                        class="header-nav__item header-nav__dropdown ">
+                        <a class="header-nav__link" style="white-space: pre;" href="https://iceperience.id/djbattle">DJ BATTLE</a>
+                        <ul class="header-nav__submenu">
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/djbattle">ABOUT</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li
+                        class="header-nav__item ">
+                        <a class="header-nav__link" href="https://iceperience.id/party">EVENTS</a>
+                    </li>
+                    <li
+                        class="header-nav__item ">
+                        <a class="header-nav__link" href="https://iceperience.id/gallery">GALLERY</a>
+                    </li>
+                    <li
+                        class="header-nav__item header-nav__dropdown ">
+                        <a class="header-nav__link" href="https://iceperience.id/icebox">ICEBOX</a>
+                        <ul class="header-nav__submenu">
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/icebox/about">ABOUT
+                                    ICEBOX</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/icebox">OUR SHOWCASE</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-nav__item header-nav__dropdown">
+                        <a class="header-nav__link" href="#">FLASHBACK</a>
+                        <ul class="header-nav__submenu">
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/archive/2019">2019</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/archive/2020">2020</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/archive/2021">2021</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/archive/2022">2022</a></li>
+                            <li class="header-nav__submenu-link"><a href="https://iceperience.id/archive/2023">2023</a></li>
+                        </ul>
+                    </li>
+                    <li
+                        class="header-nav__item header-nav__dropdown ">
+                        <a class="header-nav__link" href="#">COMMUNITY</a>
+                        <ul class="header-nav__submenu">
+                                                                                                        <li class="header-nav__submenu-link"><a href="https://iceperience.id/community/gallery">GALLERY &
+                                    GIGS</a>
+                            </li>
+                                                                                                        <li class="header-nav__submenu-link"><a href="https://iceperience.id/community">ABOUT COMMUNITY</a></li>
+                                                                                
+                        </ul>
+                    </li>
+                                                                                            <li class="header-nav__item">
+                            <div class="user-loggedin jsUserMenu">
+                                <a class="user-loggedin__show" href="#">
+                                    <img class="user-loggedin__img lazyload"
+                                        data-src="https://iceperience.id/static/images/mock/cover.png"
+                                        alt="alternative">
+                                    <span class="user-loggedin__text">Hi, Test</span>
+                                </a>
+                                <div class="user-loggedin__pop">
+                                    <ul>
+                                                                                                                <li>
+                                            <a href="https://iceperience.id/empc/profile">
+                                                <span>EDIT PROFILE</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://iceperience.id/member/logout">
+                                                <span>LOGOUT</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                                </ul>
+            </nav>
+    
+        </div>
+    
+    </div>
+    <div class="mobile-header">
+        <div class="site-logo">
+            <a href="https://iceperience.id">
+                <img src="https://iceperience.id/static/images/empc-2023/logo-ice.png" alt="Iceperience Logo"
+                    class="site-logo-image" width="193" height="15"
+                    srcset="https://iceperience.id/static/images/empc-2023/logo-ice.png 2x">
+            </a>
+        </div>
+    
+        <button class="mobile-menu-trigger hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    
+    </div>
+    
+    <nav class="mobile-nav">
+        <div id="mobile-menu" class="drilldown">
+            <div class="drilldown-container">
+    
+                <ul class="drilldown-root">
+                                        <li class="menu">
+                            <div class="user-loggedin user-loggedin--mobile">
+                                <a class="user-loggedin__show active" href="https://iceperience.id/empc/submission">
+                                    <img class="user-loggedin__img lazyload"
+                                        data-src="https://iceperience.id/static/images/mock/cover.png"
+                                        alt="alternative">
+                                    <span class="user-loggedin__text">Hi, Test</span>
+                                </a>
+                            </div>
+                        </li>
+                                    <li class="menu has-sub-menu">
+                        <a class="is-highlight">EMPC</a>
+                        <ul class="drilldown-sub sub-menu">
+                            <li class="drilldown-back"><a>Back</a></li>
+                            <li><a href="https://iceperience.id/empc">ABOUT</a></li>
+                            <li><a href="https://iceperience.id/empc/empc-faq">FAQ</a></li>
+                                                                                                                            
+                                                                                                                                                                    <li>
+                                        <a href="https://iceperience.id/empc/submission">SUBMIT YOUR TRACKS</a>
+                                    </li>
+                                                                                            <li>
+                                        <a href="https://iceperience.id/empc/profile">EDIT PROFILE</a>
+                                    </li>
+                                                                            </ul>
+                    </li>
+                    <li class="menu has">
+                        <a href="#">DJ BATTLE</a>
+                        <ul class="drilldown-sub sub-menu">
+                            <li class="drilldown-back"><a>Back</a></li>
+                            <li><a href="https://iceperience.id/djbattle">ABOUT</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="https://iceperience.id/party">EVENTS</a></li>
+                    <li class="menu"><a href="https://iceperience.id/gallery">GALLERY</a></li>
+                    <li class="menu has-sub-menu">
+                        <a>ICEBOX</a>
+                        <ul class="drilldown-sub sub-menu">
+                            <li class="drilldown-back"><a>Back</a></li>
+                            <li><a href="https://iceperience.id/icebox/about">ABOUT ICEBOX</a></li>
+                            <li><a href="https://iceperience.id/icebox">OUR SHOWCASE</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">FLASHBACK</a>
+                        <ul class="drilldown-sub sub-menu">
+                            <li class="drilldown-back"><a>Back</a></li>
+                            <li><a href="https://iceperience.id/archive/2019">2019</a></li>
+                            <li><a href="https://iceperience.id/archive/2020">2020</a></li>
+                            <li><a href="https://iceperience.id/archive/2021">2021</a></li>
+                            <li><a href="https://iceperience.id/archive/2022">2022</a></li>
+                            <li><a href="https://iceperience.id/archive/2023">2023</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu has-sub-menu"><a href="#">COMMUNITY</a>
+                        <ul class="drilldown-sub sub-menu">
+                            <li class="drilldown-back"><a>Back</a></li>
+                                                                                                        <li><a href="https://iceperience.id/community/gallery">GALLERY & GIGS</a></li>
+                                                                                                        <li><a href="https://iceperience.id/community">ABOUT COMMUNITY</a></li>
+                                                                                                    </ul>
+                    </li>
+                                                                        
+                                                                                <div class="btn-logout">
+                            <a href="https://iceperience.id/member/logout" class="btn btn-login">
+                                <span>LOGOUT</span>
+                            </a>
+                        </div>
+                                </ul>
+    
+            </div>
+        </div>
+    </nav>
+    </header>
+    
+    
+    <div id="site-content" class="site-content siteContent  ">
+        
+    
+        <div class="position-relative" style="z-index:2;">
+                <div class="decoration-wrapper decoration-wrapper__generic">
+            
+    
+            <div class="container">
+                <div id="auth-verifikasi">
+                    <div class="empc-title big-on-large">
+                <img src="https://iceperience.id/static/images/empc-2024/edge-star.png" alt="">
+            <h3 class="text-center">
+            VERIFICATION
+        </h3>
+                <img src="https://iceperience.id/static/images/empc-2024/edge-star.png" alt="">
+        </div>
+                    <choose-verify email="null3oij@gmail.com" phone="0892342342323" @verify="submitVerify"
+                        :loading="isLoading" />
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <footer id="site-footer" class="site-footer">
+        <div class="footer-content">
+        <div class="container">
+            <div class="row footer flex-align-center">
+                <div class="footer__copyright p-0">
+                    &copy; ICEPERIENCE ALL RIGHTS RESERVED
+                </div>
+                <div class="footer__hashtag p-0">
+                    #LOCAL<span style="color: #0077C0;">ICE</span>MOVEMENT
+                </div>
+                <div class="footer__menu p-0">
+                    <ul>
+                        <li><img src="https://iceperience.id/static/images/empc-2024/headphone.png" alt=""></li>
+                        
+                        <li><a href="https://iceperience.id/empc/empc-faq">FAQ</a></li>
+                        <li>
+                            <a href="https://iceperience.id/empc/home-tnc">TERMS &amp; CONDITIONS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    </footer>
+    
+    <div class="modal micromodal-slide" id="modal-tnc" aria-hidden="true">
+    
+        <!-- [2] -->
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    
+            <!-- [3] -->
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-tnc-title">
+    
+    
+                <header class="modal__header">
+                    <!-- [4] -->
+                    <button class="modal__close black" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+    
+                <div class="modal-content">
+                    <div class="modal-static text-center">
+                        <div class="modal-static__title">TERMS AND CONDITIONS</div>
+                        <div class="modal-static__text">
+                                                </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal micromodal-slide winner-modal" id="modal-winner" aria-hidden="true">
+    
+        <!-- [2] -->
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    
+            <!-- [3] -->
+            <div class="modal__container" role="dialog" aria-modal="true">
+    
+                <header class="modal__header">
+                    <!-- [4] -->
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+                </header>
+    
+                <div class="modal-content">
+    
+                    <div class="modal-profile-container">
+    
+                        <div id="winner-profile" class="modal-content modal-profile"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <script id="winner-template" type="text/x-handlebars-template" class="d-lg-none">
+            <div class="profile">
+                <div class="profile__info">
+                    <div class="row">
+                    <div class="span-12 span-md-6">
+                        <div class="profile__name">{{ empc_profile_name }}</div>
+    
+                        <div class="profile__meta">
+                            <div class="profile__column">
+                            <div class="profile__label">Songs</div>
+                            <div class="profile__value">
+                                {{ total_song }} Track
+                            </div>
+                            </div>
+                            <div class="profile__column">
+                                <div class="profile__label">Social Media</div>
+                                <div class="profile__value">
+                                    {{#if instagram}}
+                                    <a target="_blank" href="{{ instagram }}">
+                                        <img src="/static/images/empc-2021/instagram.png" alt="ig">
+                                    </a>
+                                    {{/if}}
+                                    {{#if soundcloud}}
+                                    <a target="_blank" href="{{ soundcloud }}">
+                                        <img src="/static/images/empc-2021/soundcloud.png" alt="soundcloud">
+                                    </a>
+                                    {{/if}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile__description">
+                            {{ description }}
+                        </div>
+                    </div>
+                    <div class="span-12 span-md-6">
+                        <div
+                        :key="index"
+                        class="d-flex flex-column"
+                        >
+                        <div class="tracks__index">WINNER TRACK</div>
+                        <div class="tracks__title">{{ track_title }}</div>
+                        <div class="tracks__player">
+                            <iframe
+                            width="100%"
+                            height="auto"
+                            scrolling="no"
+                            frameborder="no"
+                            src="{{ track_embed }}"
+                            ></iframe>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </script>
+    
+    
+    
+    <script src="https://iceperience.id/static/js/jquery-3.7.1.min.js"></script>
+    
+    <script src="https://iceperience.id/static/js/micromodal.min.js?v=1722324034"></script>
+    
+    
+    <script type="text/javascript">
+    
+        window.siteUrl = "https://iceperience.id";
+    
+        var section = document.getElementById('site-content');
+    
+        if(document.URL == (location.protocol + "https://iceperience.id/comingsoon")) {
+            section.className += " site-content__comingsoon";
+        }
+    
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>
+    
+    <script src="https://iceperience.id/static/js/scripts.js"></script>
+    
+        <script src="https://iceperience.id/js/pages/auth.verification.js"></script>
+    
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.embediframe').change(function(e){
+                let val = $(this).val();
+                let regx = new RegExp(/<iframe(.+)<\/iframe>/g);
+                let check = regx.test(val);
+                if(check === false){
+                    $(this).val('');
+                }
+            });
+        });
+    
+        navigator.serviceWorker && navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister()
+            }
+        })
+    
+        function track_register () {
+            window.appier_q = window.appier_q || [];
+            window.appier_q.push(
+            {"t": "register", "content": { "id": "02c1", "site": "iceperience.id" }},
+            {"t": "type_conversion", "content": "submit", "action_id": "81d22493c1d89dd", "track_id": "0abf48330664ce2", "opts": {"unique_key": "true"}});
+        }
+    
+        function join_empc () {
+            window.appier_q = window.appier_q || [];
+            window.appier_q.push(
+            {"t": "register", "content": { "id": "02c1", "site": "iceperience.id" }},
+            {"t": "type_conversion", "content": "submit", "action_id": "81d22493c1d89dd", "track_id": "0abf48330664ce2", "opts": {"unique_key": "true"}});
+        }
+    </script>
+    
+    
+    <script>
+    window.appier_q = window.appier_q || [];
+    window.appier_q.push(
+      {"t": "register", "content": { "id": "02c1", "site": "iceperience.id" }},
+      {"t":"pv_track","action_id": "b1a282f2b9cf9dd","track_id":"0abf48330664ce2","isCountReload": true,"counter": 0},
+       {"t":"pv_track","action_id": "651d80f2ba599dd","track_id":"0abf48330664ce2","isCountReload": false,"counter": 1})
+    </script>
+    <script src="//jscdn.appier.net/aa.js?id=iceperience.id" defer></script>
+    <!-- Lightning Bolt Begins -->
+    <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
+    <script type="text/javascript">
+        $('.jsHideGamification').on('click', function(){
+            $(this).parent().toggleClass('hidden');
+        });
+    </script>
+    
+  
   </body>
 </html>
